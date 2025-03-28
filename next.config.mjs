@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['placeholder.svg', 'v0.blob.com'],
+    domains: ['placeholder.svg', 'v0.blob.com', 'static-image.sportsapi360.com'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -11,6 +11,10 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'v0.blob.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static-image.sportsapi360.com',
       },
     ],
   },
