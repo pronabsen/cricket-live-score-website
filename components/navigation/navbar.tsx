@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex gap-2 items-center">
           <Link href="/" className="flex items-center space-x-2">
             <span className="inline-block text-2xl font-bold">
-              Cri<span className="text-red-500">c</span>ketScore360
+              Cri<span className="text-red-500">c</span>ket360
             </span>
           </Link>
         </div>

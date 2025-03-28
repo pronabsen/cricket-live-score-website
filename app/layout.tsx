@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "CricketScore360 - Live Cricket Scores, News & Stats",
+  title: "Cricket360 - Live Cricket Scores, News & Stats",
   description: "Get live cricket scores, match schedules, player stats, and the latest cricket news.",
 }
 
